@@ -1,0 +1,26 @@
+{
+  "name": "algolia/algoliasearch-magento-hyva",
+  "description": "Algolia- Hyva",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "magento/framework": "*",
+    "hyva-themes/magento2-compat-module-fallback": "*",
+    "algolia/algoliasearch-magento-2": "*"
+  },
+  "authors": [{
+    "name": "Zealos Ecommerce.",
+    "email": "sam.magento@gmail.com"
+}],
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "src/AlgoliyaSearch/registration.php"
+    ],
+    "psr-4": {
+      "Hyva\\AlgoliyaSearch\\": "src/AlgoliyaSearch"
+    }
+  }
+}

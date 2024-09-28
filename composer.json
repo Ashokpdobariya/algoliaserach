@@ -12,9 +12,7 @@
     "name": "Zealos Ecommerce.",
     "email": "sam.magento@gmail.com"
 }],
-  "license": [
-    "proprietary"
-  ],
+   "license": "see LICENSE.md",
   "autoload": {
     "files": [
       "src/AlgoliyaSearch/registration.php"
